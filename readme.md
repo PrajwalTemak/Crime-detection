@@ -22,7 +22,7 @@ Traditional crime detection systems rely heavily on manual monitoring of CCTV fo
 Video → Frame Extraction → CNN Feature Extraction → LSTM Sequence Learning → Classification
 
 yaml
-कोड कॉपी करें
+
 
 ---
 
@@ -57,7 +57,7 @@ crime-detection-cnn-lstm/
 └── .gitignore
 
 yaml
-कोड कॉपी करें
+
 
 ---
 
@@ -70,23 +70,23 @@ cd crime-detection-cnn-lstm
 Create a virtual environment (optional but recommended)
 
 bash
-कोड कॉपी करें
+
 python -m venv venv
 source venv/bin/activate   # Linux / Mac
 venv\Scripts\activate      # Windows
 Install dependencies
 
 bash
-कोड कॉपी करें
+
 pip install -r requirements.txt
 ▶️ Usage
 Train the model
 bash
-कोड कॉपी करें
+
 python src/train.py
 Predict on a video
 bash
-कोड कॉपी करें
+
 python src/predict.py --video path/to/video.mp4
 📊 Dataset
 Public action recognition / crime datasets
@@ -128,7 +128,7 @@ TensorFlow & OpenCV communities
 ⭐ If you find this project useful, consider giving it a star!
 
 yaml
-कोड कॉपी करें
+
 
 ---
 
